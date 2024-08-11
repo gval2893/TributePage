@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.6;
+}
+
+main {
+  font-family: "Amatic", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+nav {
+  height: 48px;
+}
+
+section {
+  padding: 20px;
+  text-align: left;
+  /* background-color: #94bbe9; */
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-top: 0.5em; /* Отступ сверху */
+    margin-bottom: 1em;
+  }
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 50px;
+  color: aquamarine;
+}
+
+#general img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+ul.nav-list {
+  padding-left: 0;
+  position: fixed;
+  text-align: right;
+  padding: 15px;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  li {
+    display: inline;
+    padding: 14px 10px;
+    a {
+      color: azure;
+      text-decoration: none;
+    }
+  }
+}
+
+ol {
+  font-size: 15px;
+  li {
+    list-style-type: square;
+    margin-bottom: 10px;
+    padding-left: 12px;
+  }
+}
+
+footer {
+  padding: 10px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  text-align: center;
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 7px 10px;
+  font-size: 12px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 999; /* Asigură-te că butonul este în fața altor elemente */
+}
